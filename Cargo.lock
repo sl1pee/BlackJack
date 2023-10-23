@@ -9,7 +9,6 @@ dependencies = [
  "rand",
 ]
 
-
 [[package]]
 name = "cfg-if"
 version = "1.0.0"

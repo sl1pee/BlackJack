@@ -49,4 +49,19 @@ fn main() {
     } else {
         println!("You Win");
     }
+    println!("Type 'quit' to close");
+
+
+    loop {
+
+        let mut input = String::new();
+        io::stdin().read_line(&mut input).expect("Error: Failed to read input.");
+        let input = input.trim().to_lowercase();
+
+        if input == "quit" {
+         break;
+        }
+    }
+
+
 }
