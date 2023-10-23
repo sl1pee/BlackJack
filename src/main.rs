@@ -14,6 +14,7 @@ fn main() {
         io::stdin().read_line(&mut input).expect("Error: Failed to read input.");
         let input = input.trim().to_lowercase();
 
+
         if input == "stand" {
             println!("Standing at: {}", user_total);
             break;
